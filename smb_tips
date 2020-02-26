@@ -1,0 +1,14 @@
+[smbshare]
+        comment=Samba of Min's
+        path=/home/minlaxz/laxz-priv/smbshare
+        read only = no
+        browseable = yes
+
+
+
+smbashare is folder name to share with samba service
+
+sudo smbpasswd -a username
+and password to login smb
+
+restart service smbd

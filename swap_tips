@@ -1,0 +1,61 @@
+sudo swapon --show
+free -h
+##to check swap space
+
+df -h
+## to check disk space
+
+sudo fallocate -l 1G /swapfile
+
+ls -lh /swapfile
+-rw-r--r--
+
+ENABLE the swapfile
+sudo chmod 600 /swapfile
+ls -lh /swapfile
+-rw-------
+
+sudo mkswap /swapfile
+OUTPUT blabla UUID.....
+sudo swapon /swapfile
+sudo swapon --show
+
+OUTPUT swapfile.....
+
+free -h
+Mem:
+Swap:
+
+Make swap file permanent
+BACKUP /etc/fstab
+sudo cp /etc/fstab /etc/fstab.bak
+
+echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+
+
+swappiness -> 0 to 100
+desktop should be 60 not bad value
+server should close to 0
+with values closed to 0, the kernel will not swap data to the disk unless necessary.
+Telling your system not to rely on the swap much will generally make your system faster.
+Values closed to 100 will try to put more data into swap in an effort to keep more RAM space free.
+
+cat /proc/sys/vm/swappiness
+OUTPUT: 60
+
+sudo sysctl vm.swappiness = 60 <<<
+OUTPUT vm.swappiness = 60
+
+for permanent:::
+sudo nano /etc/sysctl.config
+vm.swappiness = 60
+
+cache_pressure::
+cat /proc/sys/vm/vfs_cache_pressure 
+OUTPUT = 100
+sudo sysctl vm.vfs_cache_pressure = 50 or like
+OUTPUT ......
+
+for permanent
+sudo nano /etc/sysctl.config
+vm.vfs_cache_pressure = 50

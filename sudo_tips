@@ -1,0 +1,4 @@
+sudo visudo
+Defaults evn_reset,timestamp_timeout=-1 "will keep password all time"
+1,2,3,or60 in minutes
+0 will not keep

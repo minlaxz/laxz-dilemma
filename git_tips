@@ -1,0 +1,20 @@
+#undo a specific commit
+git rebase --interactive '1a4e481d8f044063967a1b19196faf09f3132f74^'
+git commit --amend -m "OLED connection"
+git rebase --continue
+
+#git setup
+##create repository at website
+mkdir someting
+cd something
+git init
+git remote add origin git@github.com:minlaxz/raspberrypi_fingerprint_firebase.git  ##SSH setup needed
+##NOW origin is linking with my gituhb repo
+touch something_file
+git add .
+git commit -m "Commit"
+git pull origin master
+git push -u origin master
+
+for error
+git pull origin <branch> --allow-unrelated-histories

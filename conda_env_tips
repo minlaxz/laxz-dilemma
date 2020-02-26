@@ -1,0 +1,25 @@
+conda create --name <name>
+
+or
+
+conda create --name <name> python=3.5.1  #fav
+
+
+conda activate <name>
+
+
+pip install something or -r req.txt
+
+
+IMPORTANT
+
+conda activate <name>
+
+CHECK
+
+pip --version
+$HOME/anaconda/envs/<name>/lib/blablabla/pip
+
+conda install jupyter
+
+<name> user@host:~/ jupyter notebook or jupyter lab

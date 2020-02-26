@@ -1,0 +1,10 @@
+git log         #CHECK to edit
+git rebase --interactive '1a4e481d8f044063967a1b19196faf09f3132f74^'
+git commit --amend -m "OLED connection"
+git status
+git rebase --continue
+git status
+git log          #CHECK back
+git status
+git push -u origin master
+OR git push

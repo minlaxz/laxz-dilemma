@@ -1,0 +1,17 @@
+####
+REMOVE DISK LETTER
+####
+win R
+diskpart
+list volume
+select volume 2
+list volume #CHECK *
+remove letter D
+
+
+####
+diskpart
+list volume
+select volume 2
+assign letter D
+####

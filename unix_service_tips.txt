@@ -1,0 +1,2 @@
+https://naysan.ca/2019/09/07/jupyter-notebook-as-a-service-on-ubuntu-18-04-with-python-3/
+

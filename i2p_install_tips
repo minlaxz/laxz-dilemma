@@ -1,0 +1,70 @@
+Instructions for Debian
+Currently supported architectures include amd64, i386, armel, armhf (for Raspbian).
+
+Note: The steps below should be performed with root access (i.e., switching user to root with su or by prefixing each command with sudo).
+
+    Ensure that apt-transport-https and curl are installed.
+
+        
+        sudo apt-get update
+        sudo apt-get install apt-transport-https curl
+        
+
+    Check which version of Debian you are using on this page at the Debian wiki and verify with /etc/debian_version on your system. Then, add lines like the following to /etc/apt/sources.list.d/i2p.list.
+
+    For Stretch (stable):
+
+        deb https://deb.i2p2.de/ stretch main
+        deb-src https://deb.i2p2.de/ stretch main
+
+
+    For Jessie (old-stable):
+
+        deb https://deb.i2p2.de/ jessie main
+        deb-src https://deb.i2p2.de/ jessie main
+
+
+    For Wheezy (obsolete):
+
+        deb https://deb.i2p2.de/ wheezy main
+        deb-src https://deb.i2p2.de/ wheezy main
+
+
+    Note: If you are running Debian Sid (testing), then you can install I2P directly from Debian's main repository:
+
+      sudo apt-get install i2p
+      
+
+    Download the key used to sign the repository:
+
+
+      curl -o i2p-debian-repo.key.asc https://geti2p.net/_static/i2p-debian-repo.key.asc
+
+
+    Check the fingerprint and owner of the key without importing anything:
+
+        
+      gpg -n --import --import-options import-show i2p-debian-repo.key.asc
+        
+
+    Add the key to APT's keyring:
+
+        
+      sudo apt-key add i2p-debian-repo.key.asc
+        
+
+    Notify your package manager of the new repository by entering
+
+        
+      sudo apt-get update
+        
+
+    This command will retrieve the latest list of software from every repository enabled on your system, including the I2P repository added in step 1.
+
+    You are now ready to install I2P! Installing the i2p-keyring package will ensure that you receive updates to the repository's GPG key.
+
+        
+      sudo apt-get install i2p i2p-keyring
+      
+
+After the installation process completes you can move on to the next part of starting I2P and configuring it for your system. 

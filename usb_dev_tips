@@ -1,0 +1,22 @@
+ls /dev/sda*
+# commonly for system partition
+
+ls /dev/sdb*
+# will be attached storage
+
+ls /dev/
+# general
+
+
+df -h
+# Find Out Plugged USB Device Name Using df Command
+
+lsblk
+# Use lsblk Command to Find USB Device Name
+
+
+sudo fdisk -l
+#Identify USB Device Name and TYPE with fdisk Utility
+
+
+or complex way is dmesg

@@ -1,0 +1,41 @@
+https://kyup.com/tutorials/copy-files-rsync-ssh/
+Transfer data using rsync
+Copy a file from local server to remote one:
+rsync -v -e ssh /home/localuser/testfile.txt remoteuser@X.X.X.X:/home/remoteuser/transfer
+
+If the remote server is configured to work with non-default SSH port (other than 22) we can specify that inside the -e option:
+rsync -v -e "ssh -p2222" /home/localuser/testfile.txt remoteuser@X.X.X.X:~/transfer
+
+
+
+Copy a file from remote server into a local folder:
+rsync -v -e ssh remoteuser@X.X.X.X:/home/remoteuser/transfer/testfile.txt /home/localuser/
+
+
+Synchronize local folder on remote server:
+rsync -r -a -v -e ssh --delete /home/localuser/testfolder remoteuser@X.X.X.X:/home/remoteuser/testfolder
+
+Synchronize folder from the remote server on the local server:
+rsync -r -a -v -e ssh --delete remoteuser@X.X.X.X:/home/remoteuser/testfolder /home/localuser/testfolder
+
+
+If "/" is placed at the end of the source folder, rsync will copy one the content of the folder.
+When not using "/" at the end of source folder, rsync will copy the folder itself and the content of the folder.
+
+If "/" is placed at the end of the destination folder, rsync will paste the data directly inside the folder.
+When not using "/" at the end of destination folder, rsync will create a folder with that name and paste the data inside that folder.
+
+
+
+Here is a list of some of the most common rsync options:
+
+    --delete - delete files that don't exist on sender (system)
+    -v - verbose (-vv will provide more detailed information)
+    -e "ssh options" - specify the ssh as remote shell
+    -a - archive mode - it preserves permissions (owners, groups), times, symbolic links, and devices
+    -r - recurse into directories
+    -z - compress file data during transfer
+    --exclude 'foldername' – excludes the corresponding folder from transfer
+    -P – show progress during transfer
+
+

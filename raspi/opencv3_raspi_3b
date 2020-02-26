@@ -1,0 +1,249 @@
+#followed this https://youtu.be/j6RD3X94rEA
+
+
+#fresh flash
+# sudo raspi-config
+# Advanced Options -> Expand filesystem -> Reboot
+# df -h -> check
+#optional storage
+# sudo apt purge wolfram-engine
+# sudo apt purge libreoffice*
+# sudo apt clean
+# sudo apt autoremove
+
+
+#Dependencies almost 4 hours installation time
+
+# sudo apt update && sudo apt upgrade
+
+#Some developer tools to help me OpenCV build process
+# sudo apt install build-essential cmake pkg-config
+~ 19 sec
+
+#IO packages for IMAGEs JPEG,PNG,TIFF... to load
+sudo apt install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev
+~ 21 sec
+
+
+# I/O packages for video , videofiles or videostream
+# sudo apt install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+# sudo apt install libxvidcore-dev libx264-dev
+~ 32 sec
+
+#The OpenCV library comes with a sub-module named highgui
+#which is used to display images to our screen and build basic GUIs.
+#In order to compile the highgui module,
+#we need to install the GTK development library:
+# sudo apt install libgtk2.0-dev libgtk-3-dev
+~ 1m 36s
+
+#Many operations inside of OpenCV (namely matrix operations) can be optimized
+#further by installing a few extra dependencies:
+# sudo apt install libatlas-base-dev gfortran
+~ 23 sec
+
+#Lastly, let’s install both the Python 2.7 and Python 3 header files
+#so we can compile OpenCV with Python bindings:
+# sudo apt install python2.7-dev python3-dev
+~ 45 sec
+
+Step #3: Download the OpenCV source code
+#Now that we have our dependencies installed, let’s grab the 3.3.0 archive
+#of OpenCV from the official OpenCV repository.
+#This version includes the dnn  module which we discussed in a previous post
+#where we did Deep Learning with OpenCV
+#(Note: As future versions of openCV are released, you can replace 3.3.0
+#with the latest version number):
+# cd ~
+# wget -O opencv.zip https://github.com/Itseez/opencv/archive/3.3.0.zip
+# unzip opencv.zip
+
+#We’ll want the full install of OpenCV 3 (to have access to features such as
+#SIFT and SURF, for instance), so we also need to grab
+#the opencv_contrib repository as well:
+# wget -O opencv_contrib.zip https://github.com/Itseez/opencv_contrib/archive/3.3.0.zip
+# unzip opencv_contrib.zip
+
+Note: Make sure your opencv and opencv_contrib versions are the same
+(in this case, 3.3.0). If the versions numbers do not match up, 
+then you’ll likely run into either compile-time or runtime errors.
+
+
+
+Step #4: Python 2.7 or Python 3?
+# wget https://bootstrap.pypa.io/get-pip.py
+# sudo python get-pip.py
+# sudo python3 get-pip.py
+
+#Install virtual env python
+# sudo pip install virtualenv virtualenvwrapper
+# sudo rm -rf ~/.cache/pip
+
+#Now that both virtualenv and virtualenvwrapper have been installed, 
+#we need to update our ~/.profile file to include the following lines 
+#at the bottom of the file:
+
+# virtualenv and virtualenvwrapper
+export WORKON_HOME=$HOME/.virtualenvs
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+source /usr/local/bin/virtualenvwrapper.sh
+
+
+need to reload .profile
+1) log out and login back
+2) close terminal and open new one
+3) source ~/.profile   (#fav one)
+
+Creating Python virtual environment
+mkvirtualenv cv -p python2 #python2
+mkvirtualenv cv -p python3 #python3
+this will create a new python virtual enviroment named 'cv'
+
+#####
+workon cv
+#####
+
+in cv enviroment
+
+pip install numpy (this pip version will be as cv python version i will be using python3)
+
+in cv enviroment
+
+$ cd ~/opencv-3.3.0/
+$ mkdir build
+$ cd build
+$ cmake -D CMAKE_BUILD_TYPE=RELEASE \
+    -D CMAKE_INSTALL_PREFIX=/usr/local \
+    -D INSTALL_PYTHON_EXAMPLES=ON \
+    -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib-3.3.0/modules \
+    -D BUILD_EXAMPLES=ON ..
+
+
+Now, before we move on to the actual compilation step, make sure you examine the output of CMake!
+
+Start by scrolling down the section titled Python 2 and Python 3 .
+
+
+If you are compiling OpenCV 3 for Python 2.7, then make sure your 
+Python 2 section includes valid paths to the Interpreter , Libraries , numpy and 
+packages path. like https://www.pyimagesearch.com/wp-content/uploads/2017/09/py27_cv.png
+
+Notice how the Interpreter points to our python2.7 binary located in the cv virtual environment. 
+The numpy variable also points to the NumPy installation in the cv environment.
+
+Similarly, if you’re compiling OpenCV for Python 3, make sure the Python 3 section looks like the figure below:
+
+https://www.pyimagesearch.com/wp-content/uploads/2017/08/python3_opencv.png
+
+Again, the Interpreter points to our python3.5 binary located in the cv virtual environment while numpy points to our NumPy install.
+
+
+
+######
+
+
+Configure your swap space size before compiling
+
+
+######
+
+Before you start the compile process, you should increase your swap space size. 
+This enables OpenCV to compile with all four cores of the Raspberry PI 
+without the compile hanging due to memory problems.
+
+Open your /etc/dphys-swapfile  and then edit the CONF_SWAPSIZE  variable:
+
+# set size to absolute value, leaving empty (default) then uses computed value
+#   you most likely don't want this, unless you have an special disk situation
+# CONF_SWAPSIZE=100
+CONF_SWAPSIZE=1024
+
+
+To activate the new swap space, restart the swap service:
+
+$ sudo /etc/init.d/dphys-swapfile stop
+$ sudo /etc/init.d/dphys-swapfile start
+
+Note: It is possible to burn out the Raspberry Pi microSD card because 
+flash memory has a limited number of writes until the card won’t work. 
+It is highly recommended that you change this setting back to the default 
+when you are done compiling and testing the install (see below). 
+To read more about swap sizes corrupting memory, see this page.
+https://www.bitpi.co/2015/02/11/how-to-change-raspberry-pis-swapfile-size-on-rasbian/
+
+
+Finally, we are now ready to compile OpenCV:
+
+make -j4
+
+Timing: 1h 30m
+
+Once OpenCV 3 has finished compiling, your output should look similar to mine below:
+
+https://www.pyimagesearch.com/wp-content/uploads/2017/09/cv_make.png
+
+From there, all you need to do is install OpenCV 3 on your Raspberry Pi 3:
+
+sudo make install
+sudo ldconfig
+
+Timing: 52s
+
+Step #6: Finish installing OpenCV on your Pi
+
+We’re almost done — just a few more steps to go and you’ll be ready to use your Raspberry Pi 3 with OpenCV 3 on Raspbian Stretch.
+
+
+for python 2.7 ::::
+Provided your Step #5 finished without error, 
+OpenCV should now be installed in /usr/local/lib/python2.7/site-pacakges . 
+You can verify this using the ls command:
+OUTPUT:::
+$ ls -l /usr/local/lib/python2.7/site-packages/
+total 1852
+-rw-r--r-- 1 root staff 1895772 Mar 20 20:00 cv2.so
+Note: In some cases, OpenCV can be installed in 
+/usr/local/lib/python2.7/dist-packages 
+(note the dist-packages rather than site-packages ). 
+If you do not find the cv2.so bindings in site-packages , 
+we be sure to check dist-packages .
+
+Our final step is to sym-link the OpenCV bindings into our cv virtual environment for Python 2.7:
+$ cd ~/.virtualenvs/cv/lib/python2.7/site-packages/
+$ ln -s /usr/local/lib/python2.7/site-packages/cv2.so cv2.so
+
+
+
+For Python3:::::
+$ ls -l /usr/local/lib/python3.5/site-packages/
+total 1852
+-rw-r--r-- 1 root staff 1895932 Mar 20 21:51 cv2.cpython-34m.so
+
+$ cd /usr/local/lib/python3.5/site-packages/
+$ sudo mv cv2.cpython-35m-arm-linux-gnueabihf.so cv2.so
+
+$ cd ~/.virtualenvs/cv/lib/python3.5/site-packages/
+$ ln -s /usr/local/lib/python3.5/site-packages/cv2.so cv2.so
+
+$ source ~/.profile 
+$ workon cv
+$ python
+>>> import cv2
+>>> cv2.__version__
+'3.3.0'
+>>>
+
+$ rm -rf opencv-3.3.0 opencv_contrib-3.3.0
+
+Don’t forget to change your swap size back!
+Open your  /etc/dphys-swapfile  and then edit the  CONF_SWAPSIZE  variable:
+# set size to absolute value, leaving empty (default) then uses computed value
+#   you most likely don't want this, unless you have an special disk situation
+CONF_SWAPSIZE=100
+# CONF_SWAPSIZE=1024
+If you skip this step, your memory card won’t last as long.
+
+$ sudo /etc/init.d/dphys-swapfile stop
+$ sudo /etc/init.d/dphys-swapfile start
+
+

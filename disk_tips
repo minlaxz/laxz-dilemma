@@ -1,0 +1,24 @@
+ref
+	https://www.techwalla.com/articles/how-to-mount-an-external-usb-drive-in-debian-linux
+
+
+list
+	fsidk -l
+maybe sab1 sdb2 ... it is sdb
+
+file system check
+	file -s /dev/sdb1 or 2 whatever
+
+
+create mount point
+	mkdir /mnt/external
+
+A mount point is simply a directory where the files from your drive will be linked so that you can locate them.
+The directory name, "external" in the example, can be any name that you would like,
+just avoid using spaces and remember that the name is case-sensitive.
+
+mout
+	mount -t vfat /dev/sdb /mnt/external
+Replace "sdb" and "external" with the appropriate device and directory.
+Replace "vfat" (used for FAT32 file systems) with "ntfs-3g" for NTFS file systems or "ext4" for EXT4 file systems.
+To unmount the drive when you are finished, type "umount /dev/sdb" and press "Enter."

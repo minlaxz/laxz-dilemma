@@ -1,0 +1,67 @@
+Install prerequisites on your Raspberry Pi
+	sudo apt-get install libhdf5-dev libhdf5-serial-dev
+	sudo apt-get install libqtwebkit4 libqt4-test
+
+Install pip on your Raspberry Pi
+	wget https://bootstrap.pypa.io/get-pip.py
+	sudo python3 get-pip.py
+
+Now you have two options:
+
+    Install OpenCV to your global Python site-packages  on your Raspberry Pi
+    Install OpenCV into a virtual environment on your Raspberry Pi
+
+
+Option A: Install OpenCV to your Raspberry Pi system with pip
+I wouldn’t recommend this option if you want to be able to use different versions of OpenCV in isolated environments.
+But a lot of people deploy their Raspberry Pis for only one purpose/project and don’t need virtual environments.
+	sudo pip install opencv-contrib-python
+
+
+Option B: Install OpenCV into a virtual environment with pip on your Raspberry Pi
+Virtual environments are definitely the way to go if your Raspberry Pi has multiple purposes
+(or if you’re like me and test code compatibility among various software versions for blog posts all the time ?).
+Here’s how to install virtualenv and virtualenvwrapper, the tools I use to get it done:
+	pip install virtualenv virtualenvwrapper
+Then you need to add the following lines to your ~/.profile .
+Open the file using nano , vim , or emacs  and append these lines to the end:
+	# virtualenv and virtualenvwrapper
+	export WORKON_HOME=$HOME/.virtualenvs
+	export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+	source /usr/local/bin/virtualenvwrapper.sh
+Note: Notice that for the Raspberry Pi, we are editing ~/.profile
+…not ~/.bash_profile  (macOS) or ~/.bashrc  (Ubuntu).
+
+	source ~/.profile
+
+read the docs >> https://virtualenvwrapper.readthedocs.io/en/latest/
+
+Create python 3 virtual enviroment
+	mkvirtualenv cv -p python3
+
+Activate
+	workon cv
+
+
+(cv) 	pip install opencv-contrib-python
+(cv)	 pip install "picamera[array]"
+
+Testing our pip install of OpenCV
+
+workon cv
+pip install imutils
+pip install "picamera[array]" # if you're using a Raspberry Pi
+
+Double check!!
+workon cv
+python
+Python 3.6.3 (default, Oct  4 2017, 06:09:15) 
+[GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.37)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import cv2
+>>> cv2.__version__
+'3.4.2'
+>>> import imutils
+>>>
+
+

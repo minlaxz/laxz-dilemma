@@ -1,0 +1,9 @@
+sudo umount /dev/sdX
+sudo dd if=/path/to/ubuntu.iso of=/dev/sdX bs=4M && sync
+
+where sdX is your usb device (this can be verified with lsblk).
+
+The sync bit is important as dd can return before the write operation finishes.
+
+
+cat my.iso > /dev/sdb && sync

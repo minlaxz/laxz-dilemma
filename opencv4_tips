@@ -1,0 +1,129 @@
+
+##dependencies##
+
+#update system
+sudo apt update
+sudo apt upgrade
+
+#install developer tools
+sudo apt install build-essential cmake unzip pkg-config
+
+#install image and video I/O libs
+sudo apt install libjpeg-dev libpng-dev libtiff-dev
+sudo apt install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+sudo apt install libxvidcore-dev libx264-dev
+
+#install GTK for GUI backend
+sudo apt install libgtk-3-dev
+
+#mathematical optimizations for OpenCV
+sudo apt install libatlas-base-dev gfortran
+
+#Python 3 development headers
+sudo apt install python3-dev
+
+##END Step 1 ##
+
+##Download OpenCV 4## 
+cd ~
+wget -O opencv.zip https://github.com/opencv/opencv/archive/4.0.0.zip
+wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/4.0.0.zip
+
+unzip opencv.zip
+unzip opencv_contrib.zip
+
+mv opencv4.0.0 opencv
+mv opencv_contrib4.0.0 opencv_contrib
+
+## END Step 2##
+
+
+## Configure your Python 3 virtual environment for OpenCV 4 ##
+#install pip
+wget https://bootstrap.pypa.io/get-pip.py
+sudo python3 get-pip.py
+
+#virtual env
+sudo pip install virtualenv virtualenvwrapper
+sudo rm -rf ~/get-pip.py ~/.cache/pip
+#To finish the install of these tools, we need to update our  ~/.bashrc  file.
+
+# virtualenv and virtualenvwrapper
+export WORKON_HOME=$HOME/.virtualenvs
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+source /usr/local/bin/virtualenvwrapper.sh
+
+OR
+
+$ echo -e "\n# virtualenv and virtualenvwrapper" >> ~/.bashrc
+$ echo "export WORKON_HOME=$HOME/.virtualenvs" >> ~/.bashrc
+$ echo "export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3" >> ~/.bashrc
+$ echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
+
+
+#source the file
+source ~/.bashrc
+
+mkvirtualenv cv -p python3
+workon cv
+
+(cv) $ pip install numpy
+
+## END Step 3 ##
+
+
+
+## CMake and compile OpenCV 4 for Debain
+
+# make folder
+cd ~/opencv
+mkdir build
+cd build
+
+#run cmake for opencv4
+cmake -D CMAKE_BUILD_TYPE=RELEASE \
+	-D CMAKE_INSTALL_PREFIX=/usr/local \
+	-D INSTALL_PYTHON_EXAMPLES=ON \
+	-D INSTALL_C_EXAMPLES=OFF \
+	-D OPENCV_ENABLE_NONFREE=ON \
+	-D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules \
+	-D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python \
+	-D BUILD_EXAMPLES=ON ..
+
+#Be sure to update the above command to use the correct OPENCV_EXTRA_MODULES_PATH  and  PYTHON_EXECUTABLE  in your virtual environment that you’re working in.
+
+# see this image 
+https://www.pyimagesearch.com/wp-content/uploads/2018/06/install-opencv-ubuntu-cmake.jpg
+
+# compile opencv 4
+make -j4
+
+#done and NO ERROR image
+https://www.pyimagesearch.com/wp-content/uploads/2018/06/install-opencv4-ubuntu-makecomplete.jpg
+
+# install
+sudo make install
+sudo ldconfig
+
+## END Step 4
+
+##Link OpenCV 4 into your Python 3 virtual environment##
+workon cv
+python --version >output should be> python3.5
+ls /usr/local/python/cv2/python-3.5 >output> cv2.cpython-35m-x86_64-linux-gnu.so
+
+#rename
+cd /usr/local/python/cv2/python-3.5
+sudo mv cv2.cpython-35m-x86_64-linux-gnu.so cv2.so
+
+cd ~/.virtualenvs/cv/lib/python3.5/site-packages/
+ln -s /usr/local/python/cv2/python-3.5/cv2.so cv2.so
+
+## END
+
+
+#test
+workon cv
+python
+import cv2
+cv2.__version__ >> ??
