@@ -1,0 +1,26 @@
+sudo lsof -i -P -n | grep LISTEN
+sudo netstat -tulpn | grep LISTEN
+sudo lsof -i:22 ## see a specific port such as 22 ##
+sudo nmap -sTU -O IP-address-Here
+
+For the latest version of Linux use the ss command. For example, ss -tulw
+
+laxz@beaver:~/laxz_tips$ lsof -i -P -n | grep LISTEN
+java       2099 laxz    6u  IPv6   33768      0t0  TCP 127.0.0.1:9614 (LISTEN)
+tixati    12657 laxz   16u  IPv4  140220      0t0  TCP *:27741 (LISTEN)
+tixati    12657 laxz   21u  IPv6  140223      0t0  TCP *:27741 (LISTEN)
+ZMQbg/1   20160 laxz    5u  IPv4  767818      0t0  TCP 127.0.0.1:8888 (LISTEN)
+ZMQbg/1   20257 laxz   12u  IPv4  772742      0t0  TCP 127.0.0.1:38003 (LISTEN)
+ZMQbg/1   20257 laxz   14u  IPv4  772744      0t0  TCP 127.0.0.1:36347 (LISTEN)
+ZMQbg/1   20257 laxz   16u  IPv4  772746      0t0  TCP 127.0.0.1:50091 (LISTEN)
+ZMQbg/1   20257 laxz   18u  IPv4  772748      0t0  TCP 127.0.0.1:37179 (LISTEN)
+ZMQbg/1   20257 laxz   23u  IPv4  772752      0t0  TCP 127.0.0.1:39065 (LISTEN)
+ZMQbg/1   20257 laxz   31u  IPv4  774402      0t0  TCP 127.0.0.1:60445 (LISTEN)
+
+
+sudo lsof -i -P -n | grep LISTEN
+sudo ss -tulpn
+sudo netstat -tulpn
+
+
+

@@ -1,0 +1,32 @@
+see 'port_listen_tips'
+
+laxz@beaver:~$ sudo netstat -tulpn | grep LISTEN
+tcp        0      0 0.0.0.0:35587           0.0.0.0:*               LISTEN      969/ecbd            
+tcp        0      0 127.0.0.1:50091         0.0.0.0:*               LISTEN      20257/python        
+tcp        0      0 0.0.0.0:139             0.0.0.0:*               LISTEN      1835/smbd           
+tcp        0      0 127.0.0.1:38003         0.0.0.0:*               LISTEN      20257/python        
+tcp        0      0 127.0.0.1:5939          0.0.0.0:*               LISTEN      1763/teamviewerd    
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN      853/systemd-resolve 
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      1174/sshd           
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      22113/cupsd         
+tcp        0      0 127.0.0.1:8888          0.0.0.0:*               LISTEN      20160/python3.6     
+tcp        0      0 127.0.0.1:39065         0.0.0.0:*               LISTEN      20257/python        
+tcp        0      0 127.0.0.1:37179         0.0.0.0:*               LISTEN      20257/python        
+tcp        0      0 127.0.0.1:36347         0.0.0.0:*               LISTEN      20257/python        
+tcp        0      0 127.0.0.1:60445         0.0.0.0:*               LISTEN      20257/python        
+tcp        0      0 0.0.0.0:3389            0.0.0.0:*               LISTEN      6206/VirtualBoxVM   
+tcp        0      0 0.0.0.0:27741           0.0.0.0:*               LISTEN      12657/tixati        
+tcp        0      0 0.0.0.0:445             0.0.0.0:*               LISTEN      1835/smbd           
+tcp6       0      0 :::139                  :::*                    LISTEN      1835/smbd           
+tcp6       0      0 127.0.0.1:9614          :::*                    LISTEN      2099/java           
+tcp6       0      0 :::22                   :::*                    LISTEN      1174/sshd           
+tcp6       0      0 ::1:631                 :::*                    LISTEN      22113/cupsd         
+tcp6       0      0 :::3389                 :::*                    LISTEN      6206/VirtualBoxVM   
+tcp6       0      0 :::27741                :::*                    LISTEN      12657/tixati        
+tcp6       0      0 :::445                  :::*                    LISTEN      1835/smbd           
+
+to kill smbd
+
+sudo kill -9 1835
+
+-9 means force
