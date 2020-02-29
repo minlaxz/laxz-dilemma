@@ -1,0 +1,18 @@
+Update: In VirtualBox 6.0, released in 2019, you may need to use the following command instead:
+
+remove attached vdi file from virtual box
+
+VBoxManage modifymedium disk “path_to_hard_disk_file.vdi” --resize 81920
+
+After that, boot up and format new partition
+
+https://www.howtogeek.com/124622/how-to-enlarge-a-virtual-machines-disk-in-virtualbox-or-vmware/
+
+
+
+gparted for linux 
+org soft for windows
+
+
+
+https://linuxhint.com/increase-virtualbox-disk-size/

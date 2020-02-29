@@ -1,0 +1,13 @@
+Virtual machine - windows10
+Host		- Ubuntu
+
+Problem		- Pass EPSON-L310 to V-machine from Linux
+
+sudo usermod -a -G vboxusers <YOUR_USER_NAME>
+
+
+Link: https://askubuntu.com/questions/48982/how-can-i-connect-usb-printer-in-virtual-box-ose-win-xp
+
+
+install L310 driver https://tutorialforlinux.com/driver-epson-l310-ubuntu-how-to-download-install/
+
