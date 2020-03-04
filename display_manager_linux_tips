@@ -1,0 +1,25 @@
+https://opensource.com/article/16/12/yearbook-best-couple-2016-display-manager-and-window-manager
+
+
+I have ubuntu gnome default display manager installed.
+
+but i wanted to test some KDE sweet themes, so i installed ubuntu-kde-plasma (it is kdesktop)
+
+while installig, ubuntu request me to choose gdm or sddm (simple dm) for KDE, 
+as tuto i choosed it (sddm), 
+
+
+but after some hours, i got bored with kde, so purged it then my display gone!
+
+only cli
+
+
+so i got no idea and reistall plasma, after that i have run
+
+sudo dpkg-reconfigure sddm
+
+then ubuntu request again sddm or gdm 
+
+according above web, I choosed gdm bcz it is gnome.
+
+fixed.
