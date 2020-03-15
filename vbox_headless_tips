@@ -1,0 +1,7 @@
+#hybernate
+vboxmanage list runningvms | sed -r 's/.*\{(.*)\}/\1/' | xargs -L1 -I {} VBoxManage controlvm {} savestate
+
+#headless start
+usr/lib/virtualbox/VBoxHeadless --startvm {6f60ce40-3392-41ca-b45b-b5f9c3b1b25c}
+
+
