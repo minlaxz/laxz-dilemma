@@ -1,0 +1,27 @@
+https://www.howtogeek.com/107217/how-to-manage-processes-from-the-linux-terminal-10-commands-you-need-to-know/
+
+ps -A | grep firefox
+ps -A | less
+
+pstree | grep keybase
+
+
+pgrep firefox
+
+kill -9 PID
+
+pkill firefox
+killall firefox
+
+
+The renice command changes the nice value of an already running process. The nice value determines what priority the process runs with. A value of -19 is very high priority, while a value of 19 is very low priority. A value of 0 is the default priority.
+
+
+If you’re making a process run at a higher priority, you’ll require root permissions. 
+
+sudo renice -19 firefox or some
+
+
+xkill for GUI
+
+
