@@ -1,0 +1,13 @@
+rtr3initex failed with rc=-1912 (rc=-1912)
+
+sudo apt-get purge virtualbox-dkms && \
+sudo apt-get install dkms
+
+sudo /sbin/vboxconfig
+
+vboxdrv.sh: Stopping VirtualBox services.
+vboxdrv.sh: Starting VirtualBox services.
+vboxdrv.sh: Building VirtualBox kernel modules.
+
+
+https://askubuntu.com/questions/900794/virtualbox-rtr3initex-failed-with-rc-1912-rc-1912
