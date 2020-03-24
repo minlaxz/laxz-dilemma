@@ -24,3 +24,31 @@ then ubuntu request again sddm or gdm
 according above web, I choosed gdm bcz it is gnome.
 
 fixed.
+
+
+
+
+
+
+
+------------------
+
+
+Install your previous desktop environment (it should be in cache so you dont need to download anything)
+
+sudo apt install ubuntu-desktop
+You will still see kubuntu on boot screen. So to remove that
+
+sudo update-initramfs -u
+Reboot.
+On login screen, choose desktop session other than KDE
+
+And finally remove all traces of kde
+
+sudo apt remove --purge kubuntu-desktop
+sudo apt autoremove
+If you still see kde login screen (rarely)
+
+sudo dpkg-reconfigure gdm3
+sudo apt remove --purge sddm
+Replace gdm3 with your current desktop environment's display manager. Common on ubuntu are gdm, lightdm
