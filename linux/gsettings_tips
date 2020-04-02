@@ -1,0 +1,8 @@
+[enable]
+gnome-shell-extension-tool -e user-theme
+print --help
+<error<faultly installed some extensions>,<boot up, but screen goes black>, {login via ssh} and disable user-theme to disconnect all themes>
+ref : https://askubuntu.com/a/591764
+ref : https://askubuntu.com/a/1162433
+[extension manipulations]
+[ref]:(http://www.bernaerts-nicolas.fr/linux/76-gnome/345-gnome-shell-install-remove-extension-command-line-script)
