@@ -3,7 +3,12 @@ laxz-dilemma(s) 🙃
 
 Created for my all tips(probleeeems) about `(linux, python, bash, windows error, etc.)`
 
-+ ##### LINUX
+---
+
+### Linux
+<details>
+	<summary> Click to expand!  </summary>
+	<p>
 	1. [gsettings](https://github.com/minlaxz/laxz-dilemma/blob/master/linux/gsettings_tips)
 	2. [bootable](https://github.com/minlaxz/laxz-dilemma/blob/master/linux/bootable_tips)
 	3. [debian_buttons](https://github.com/minlaxz/laxz-dilemma/blob/master/linux/debian_button_fix_tips)
@@ -20,10 +25,21 @@ Created for my all tips(probleeeems) about `(linux, python, bash, windows error,
 	14. [swap](https://github.com/minlaxz/laxz-dilemma/blob/master/linux/swap_tips)
 	15. [service](https://github.com/minlaxz/laxz-dilemma/blob/master/linux/unix_service_tips)
 	16. [usb dev](https://github.com/minlaxz/laxz-dilemma/blob/master/linux/usb_dev_tips)
-	
-	
-+ ##### Virtual Box
+</p>	
+</details>
+		
+---
+
+### VirtualBox
+
+ <details>
+<summary>Click to expand! </summary>
+<p>
 	1. [dkms](https://github.com/minlaxz/laxz-dilemma/blob/master/vbox/vbox_dkms_tips)
 	2. [headless](https://github.com/minlaxz/laxz-dilemma/blob/master/vbox/vbox_headless_tips)
 	3. [printer - windows-guest](https://github.com/minlaxz/laxz-dilemma/blob/master/vbox/vbox_printer_tips)
 	4. [storage](https://github.com/minlaxz/laxz-dilemma/blob/master/vbox/vbox_storage_increase_tips)
+</p>
+	</details>
+
+---
