@@ -1,4 +1,15 @@
-# laxz-tips
-This is created for my all tips about  (linux, python, bash, windows error, etc.)
+laxz-dilemma(s) 🙃
+===
 
-> about `Errors`
+Created for my all tips(probleeeems) about `(linux, python, bash, windows error, etc.)`
+
+<ul>
+<li>LINUX</li>
+	<ol>
+	<li> [gsettings](https://github.com/minlaxz/laxz-dilemma/blob/master/linux/gsettings_tips)</li>
+	</ol>
+<li>PYTHON</li>
+	<ol>
+	<li>ok</li>
+	</ol>
+</ul>
