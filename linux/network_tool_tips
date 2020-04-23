@@ -1,2 +1,15 @@
 bmon  slurm  tcptrack
 
+dig google.com
+
+systemd-resolve --status
+
+cat /etc/resolv.conf
+
+traceroute google.com
+
+
+
+
+
+
