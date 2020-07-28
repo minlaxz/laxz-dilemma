@@ -18,5 +18,11 @@ lsblk
 sudo fdisk -l
 #Identify USB Device Name and TYPE with fdisk Utility
 
+#mouse speed
+xinput list
+xinput list-props `id`
+xinput set-prop 9 'Device Accel Constant Deceleration' 3
+https://askubuntu.com/a/259628
+
 
 or complex way is dmesg

